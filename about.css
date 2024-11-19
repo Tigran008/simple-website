@@ -1,0 +1,128 @@
+
+  /* About Section */
+  .about {
+    background-color: #B4D4FF;
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  
+  .about h1 {
+    font-size: 2.5rem;
+    color: #176B87;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Mission and Vision Section */
+  .mission-vision {
+    background-color: #EEF5FF;
+    padding: 2rem;
+  }
+  
+  .mission-vision .content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  .mission, .vision {
+    background-color: #86B6F6;
+    padding: 1.5rem;
+    border-radius: 8px;
+    color: #EEF5FF;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .mission h2, .vision h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* History Section */
+  .history {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  
+  .history h2 {
+    color: #176B87;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .history p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+  }
+  
+  .history-img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Team Section */
+  .team {
+    background-color: #B4D4FF;
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  
+  .team h2 {
+    color: #176B87;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .team-member {
+    background-color: #EEF5FF;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    color: #176B87;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #176B87;
+    color: #EEF5FF;
+    padding: 1rem;
+  }
+  

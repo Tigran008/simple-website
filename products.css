@@ -1,0 +1,131 @@
+
+  /* Categories Section */
+  .categories {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .categories h1 {
+    color: #176B87;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .category-item {
+    background-color: #B4D4FF;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .category-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .category-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .category-item h3 {
+    color: #176B87;
+    font-size: 1.5rem;
+  }
+  
+  .category-item p {
+    color: #333;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Products Section */
+  .products {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .products h1 {
+    color: #176B87;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .product-item {
+    background-color: #EEF5FF;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  
+  .product-item h3 {
+    color: #176B87;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-item p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .product-item .price {
+    color: #86B6F6;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  /* Buy Now Button */
+  .buy-now-btn {
+    background-color: #176B87;
+    color: #EEF5FF;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #144D5F;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #176B87;
+    color: #EEF5FF;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  

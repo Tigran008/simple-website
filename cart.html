@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart - MyShop</title>
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyShop</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="cart">
+        <a href="cart.html">🛒 Cart</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Cart Section -->
+  <section class="cart-section">
+    <h1>Your Shopping Cart</h1>
+    <p>Review your selected items below and proceed to checkout.</p>
+
+    <!-- Cart Table -->
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="product-info">
+              <img src="https://via.placeholder.com/100" alt="Product 1">
+              <p>Product 1</p>
+            </div>
+          </td>
+          <td>$25.00</td>
+          <td><input type="number" value="1" min="1"></td>
+          <td>$25.00</td>
+          <td><button class="remove-btn">Remove</button></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="product-info">
+              <img src="https://via.placeholder.com/100" alt="Product 2">
+              <p>Product 2</p>
+            </div>
+          </td>
+          <td>$50.00</td>
+          <td><input type="number" value="2" min="1"></td>
+          <td>$100.00</td>
+          <td><button class="remove-btn">Remove</button></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Cart Summary -->
+    <div class="cart-summary">
+      <h2>Cart Summary</h2>
+      <p><strong>Subtotal:</strong> $125.00</p>
+      <p><strong>Shipping:</strong> Free</p>
+      <p><strong>Total:</strong> $125.00</p>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 MyShop. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

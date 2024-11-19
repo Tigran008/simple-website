@@ -1,0 +1,115 @@
+
+  /* Contact Info Section */
+  .contact-info {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  
+  .contact-info h1 {
+    font-size: 2.5rem;
+    color: #176B87;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+  }
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .info-item {
+    background-color: #B4D4FF;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .info-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info-item h3 {
+    font-size: 1.2rem;
+    color: #176B87;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Contact Form Section */
+  .contact-form {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .contact-form h2 {
+    font-size: 2rem;
+    color: #176B87;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    color: #176B87;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #B4D4FF;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button.send-btn {
+    background-color: #176B87;
+    color: #EEF5FF;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.send-btn:hover {
+    background-color: #144D5F;
+  }
+  
+  /* Map Section */
+  .map {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  
+  .map h2 {
+    font-size: 2rem;
+    color: #176B87;
+    margin-bottom: 2rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #176B87;
+    color: #EEF5FF;
+    padding: 1rem;
+  }
+  
